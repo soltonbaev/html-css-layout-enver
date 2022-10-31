@@ -1,0 +1,28 @@
+:root {
+  /* Font families */
+  --main-font-family: "Nunito Sans", sans-serif;
+  --header-font-family: "Open Sans", sans-serif;
+
+  /*Font Sizes*/
+  --nav-size: 18px;
+  --section-title-size: 60px;
+  --main-size: 20px;
+  --service-title-size: 28px;
+
+  /* Colors */
+  --main-color: #ffffff;
+  --secondary-color: #ffffffb2;
+  --primary-color: #5454d4;
+  --bg-color: #19191b;
+
+  /*Specific variables*/
+  --container-width: 1200px;
+}
+
+@media (max-width: 440px) {
+  :root {
+    --main-size: 16px;
+    --section-title-size: 36px;
+    --service-title-size: 24px;
+  }
+}

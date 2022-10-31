@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Open+Sans:wght@700&display=swap");
+
+body {
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  font-family: var(--main-font-family);
+  margin: 0;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 25px;
+}
+
+.container__inner {
+  margin-top: 25px;
+}
+
+/* ======================================== HEADER STARTS ======================================== */
+
+.nav-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 400px;
+}
+
+.nav-list__item a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: var(--nav-size);
+}
+
+.nav-list__item a:hover {
+  color: var(--primary-color);
+}
+.search__field {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid var(main-color);
+  width: 165px;
+  height: 28px;
+  color: var(--main-color);
+}
+
+.burger-menu {
+  display: none;
+}
+
+/* ======================================== HEADER ENDS ======================================== */
+
+/* ======================================== WELCOME SECTION STARTS ======================================== */
+
+.section-title {
+  font-family: var(--header-font-family);
+  font-size: var(--section-title-size);
+}
+
+.welcome-msg__title {
+  font-size: 80px;
+  margin: 0;
+  line-height: 84px;
+}
+
+.header__top {
+  margin-top: 145px;
+}
+
+.welcome-wrapper {
+  display: flex;
+}
+
+.wrapper__left {
+  width: 100%;
+}
+
+.welcome-msg p {
+  font-size: var(--main-size);
+  color: var(--secondary-color);
+  line-height: 39px;
+}
+
+.welcome-msg {
+  min-width: 327px;
+}
+
+.button {
+  max-height: 60px;
+  width: 204px;
+  background-color: var(--primary-color);
+  color: var(--main-color);
+  font-family: var(--main-family);
+  font-weight: bold;
+  font-size: var(--main-size);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 16px 27px;
+}
+
+.welcome-msg .button {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-msg button img {
+  margin-left: 8px;
+}
+
+.wrapper__right {
+  position: relative;
+  width: 100%;
+}
+
+.welcome-img {
+  min-width: 327px;
+}
+
+.welcome-img img:first-child {
+  position: absolute;
+  top: -100px;
+  right: -80px;
+}
+
+.right__icons {
+  position: absolute;
+}
+
+#vector-1 {
+  top: 20px;
+  left: 0;
+}
+
+#vector-2 {
+  right: 0;
+}
+
+#vector-3 {
+  bottom: -55px;
+  left: -30px;
+}
+
+#vector-4 {
+  right: 0;
+  bottom: -35px;
+}
+
+.gradient-bg-1 {
+  top: 0;
+  position: absolute;
+  width: 467px;
+  height: 1233px;
+  background: linear-gradient(
+    180deg,
+    rgba(84, 84, 212, 0.27) 0%,
+    rgba(84, 84, 212, 0.1134) 100%
+  );
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(-54.37deg);
+}
+
+.gradient-bg-2 {
+  position: absolute;
+  width: 467px;
+  height: 1399.3px;
+  left: 1701.44px;
+  top: 161px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(251, 168, 28, 0.1066) 0%,
+    rgba(224, 86, 136, 0.0615) 100%
+  );
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(65.71deg);
+}
+
+.gradient-bg-3 {
+  position: absolute;
+  top: 0;
+  width: 467px;
+  height: 508px;
+  background: linear-gradient(
+    180deg,
+    rgba(84, 84, 212, 0.21) 0%,
+    rgba(84, 84, 212, 0.0882) 100%
+  );
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(-54.37deg);
+}
+
+.gradient-bg-4 {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 403px;
+  height: 1462px;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 168, 28, 0.048) 0%,
+    rgba(224, 86, 136, 0.018) 100%
+  );
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(65.71deg);
+}
+
+.body__inner {
+  margin-top: 100px;
+}
+
+/* ======================================== WELCOME SECTION ENDS ======================================== */
+
+/* ======================================== SERVICES SECTION STARTS ======================================== */
+
+.services-wrapper__title {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.services__inner {
+  margin-top: 30px;
+}
+
+.services-list__item {
+  margin-top: 60px;
+}
+
+.info-item {
+  max-width: 300px;
+  max-height: 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.info-item span {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-item img {
+  width: 69px;
+  height: 69px;
+  align-self: center;
+}
+
+.info-item__title {
+  font-size: var(--service-title-size);
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.info-item__desc {
+  font-size: var(--main-size);
+  color: var(--secondary-color);
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+/* ======================================== SERVICES SECTION ENDS ======================================== */
+/* ======================================== PORTFOLIO SECTION STARTS ======================================== */
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio__list {
+  display: flex;
+}
+
+.portfolio__list div:nth-child(2) {
+  margin-top: 50px;
+}
+
+.portfolio__list div:last-child {
+  margin-top: 100px;
+}
+
+.portfolio__dots {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.portfolio__dot-item {
+  width: 8px;
+  height: 8px;
+  background-color: #121213;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.portfolio__dot-item_active {
+  background-color: #5454d4;
+  width: 16px;
+  border-radius: 10px;
+}
+
+.arrows div {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.arrows__left {
+  background-color: #ffffff33;
+}
+
+.arrows__right {
+  background-color: var(--primary-color);
+}
+
+.portfolio__arrows_hidden {
+  display: none;
+}
+
+/* ======================================== PORTFOLIO SECTION ENDS ======================================== */
+/* ======================================== CONTACT US SECTION STARTS ======================================== */
+
+.contact-us__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ======================================== FOOTER SECTION STARTS ======================================== */
+
+.footer__bm {
+  margin-bottom: 40px;
+}
+.footer__tm {
+  margin-top: 40px;
+}
+
+/* ======================================== FOOTER SECTION ENDS ======================================== */
+
+/* ======================================== RESPONSIVE LAYOUT STARTS ======================================== */
+
+@media (max-width: 1200px) {
+  .container {
+    min-width: 327px;
+    max-width: 100%;
+    padding: 0 25px;
+  }
+  .wrapper__right img:first-child {
+    width: 100%;
+    position: initial;
+  }
+
+  .portfolio__list {
+    justify-content: center;
+  }
+  .portfolio__img3_hide {
+    display: none;
+  }
+
+  .portfolio__img_full-width {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .welcome-wrapper {
+    display: block;
+  }
+  .wrapper__right {
+    margin-top: 60px;
+  }
+
+  footer .nav-block {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  footer .nav-list {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .navbar,
+  .search {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+
+  .portfolio__list div:nth-child(2) {
+    display: none;
+  }
+
+  .contact-us__wrapper {
+    flex-direction: column;
+  }
+
+  .portfolio__arrows_hidden {
+    display: flex;
+  }
+
+  .portfolio__dots_hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .header__top {
+    margin-top: 70px;
+  }
+  .welcome-msg__title {
+    font-size: 42px;
+    line-height: 150%;
+  }
+  .body__inner {
+    margin-top: 70px;
+  }
+}
